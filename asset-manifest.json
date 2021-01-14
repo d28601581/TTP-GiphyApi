@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/gify-api/static/css/main.5fc2634d.chunk.css",
+    "main.js": "/gify-api/static/js/main.a4340f2c.chunk.js",
+    "main.js.map": "/gify-api/static/js/main.a4340f2c.chunk.js.map",
+    "runtime-main.js": "/gify-api/static/js/runtime-main.16223a36.js",
+    "runtime-main.js.map": "/gify-api/static/js/runtime-main.16223a36.js.map",
+    "static/js/2.e6ba99ce.chunk.js": "/gify-api/static/js/2.e6ba99ce.chunk.js",
+    "static/js/2.e6ba99ce.chunk.js.map": "/gify-api/static/js/2.e6ba99ce.chunk.js.map",
+    "index.html": "/gify-api/index.html",
+    "static/css/main.5fc2634d.chunk.css.map": "/gify-api/static/css/main.5fc2634d.chunk.css.map",
+    "static/js/2.e6ba99ce.chunk.js.LICENSE.txt": "/gify-api/static/js/2.e6ba99ce.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.16223a36.js",
+    "static/js/2.e6ba99ce.chunk.js",
+    "static/css/main.5fc2634d.chunk.css",
+    "static/js/main.a4340f2c.chunk.js"
+  ]
+}
