@@ -1,25 +1,31 @@
-import logo from './logo.svg';
+import React from 'react';
+import SearchBar from './Components/SearchBar';
 import './App.css';
+import GifList from './Components/GifList';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends React.Component {
+
+  state = { gif: [] }
+  onSearchSubmit = async (term, limit = 5,rating) => {
+    const giphy = require('giphy-api-without-credentials')('dFWuvuX6BXqw2v1GVKmCVsLHPMDdxdvj');
+    console.log(rating);
+    giphy.search({
+      q:`${term}`,
+      limit:limit,
+      rating:rating
+    }, (err, res) => {
+      console.log(limit)
+      this.setState({ gif: res.data });
+    })
+  }
+  render() {
+    return (
+      <div>
+        <SearchBar onSubmit={this.onSearchSubmit} />
+        <GifList gifs={this.state.gif} />
+      </div>
+    );
+  }
 }
 
 export default App;
