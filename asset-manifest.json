@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/gify-api/static/css/main.5fc2634d.chunk.css",
-    "main.js": "/gify-api/static/js/main.3027f178.chunk.js",
-    "main.js.map": "/gify-api/static/js/main.3027f178.chunk.js.map",
+    "main.js": "/gify-api/static/js/main.abb422b9.chunk.js",
+    "main.js.map": "/gify-api/static/js/main.abb422b9.chunk.js.map",
     "runtime-main.js": "/gify-api/static/js/runtime-main.16223a36.js",
     "runtime-main.js.map": "/gify-api/static/js/runtime-main.16223a36.js.map",
-    "static/js/2.e6ba99ce.chunk.js": "/gify-api/static/js/2.e6ba99ce.chunk.js",
-    "static/js/2.e6ba99ce.chunk.js.map": "/gify-api/static/js/2.e6ba99ce.chunk.js.map",
+    "static/js/2.e2ee2443.chunk.js": "/gify-api/static/js/2.e2ee2443.chunk.js",
+    "static/js/2.e2ee2443.chunk.js.map": "/gify-api/static/js/2.e2ee2443.chunk.js.map",
     "index.html": "/gify-api/index.html",
     "static/css/main.5fc2634d.chunk.css.map": "/gify-api/static/css/main.5fc2634d.chunk.css.map",
-    "static/js/2.e6ba99ce.chunk.js.LICENSE.txt": "/gify-api/static/js/2.e6ba99ce.chunk.js.LICENSE.txt"
+    "static/js/2.e2ee2443.chunk.js.LICENSE.txt": "/gify-api/static/js/2.e2ee2443.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.16223a36.js",
-    "static/js/2.e6ba99ce.chunk.js",
+    "static/js/2.e2ee2443.chunk.js",
     "static/css/main.5fc2634d.chunk.css",
-    "static/js/main.3027f178.chunk.js"
+    "static/js/main.abb422b9.chunk.js"
   ]
 }
